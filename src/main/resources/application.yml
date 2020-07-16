@@ -1,6 +1,8 @@
+sever:
+  port: 8888
 spring:
   datasource:
-    url: jdbc:mysql://123.207.245.18:3306/manhua?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://localhost:3306/manhua?useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
     password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
